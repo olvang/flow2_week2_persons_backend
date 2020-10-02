@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="person" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="person" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="person" options="-endorseddirs C:\Users\Oliver\Documents\3sem\flow2\week2\2020-10-01\person_back\target/endorsed" />
+    </option>
+  </component>
+</project>
