@@ -27,7 +27,6 @@ public class ApplicationConfig extends Application {
         resources.add(exceptions.PersonNotFoundExceptionMapper.class);
         resources.add(exceptions.MissingInputExceptionMapper.class);
         resources.add(rest.PersonResource.class);
-        resources.add(rest.TestResource.class);
     }
     
 }
