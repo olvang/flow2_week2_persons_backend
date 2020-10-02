@@ -10,17 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69c83793-a6e5-489c-925f-c896e4f64d83" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/person.iml" beforeDir="false" afterPath="$PROJECT_DIR$/person.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dto/PersonDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dto/PersonDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/facades/PersonFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/facades/PersonFacade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rest/CorsRequestFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rest/CorsResponseFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/EMF_Creator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/EMF_Creator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/facades/PersonFacadeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/facades/PersonFacadeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/rest/PersonResourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rest/PersonResourceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -324,7 +315,7 @@
       <updated>1600880323597</updated>
       <workItem from="1600880324866" duration="8067000" />
       <workItem from="1600929374954" duration="18858000" />
-      <workItem from="1601628857820" duration="912000" />
+      <workItem from="1601628857820" duration="1288000" />
     </task>
     <servers />
   </component>
@@ -408,9 +399,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600939662134" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600937404597">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601630106893">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600937404597" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601630106893" />
   </component>
 </project>
