@@ -99,7 +99,7 @@ public class PersonFacade implements IPersonFacade {
     }
 
     public PersonAddressDTO editPerson(PersonAddressDTO p) throws PersonNotFoundException, MissingInputException {
-        if (p.getId() == null || p.getId() < 1 || p.getfName() == null || p.getfName().isEmpty() || p.getlName() == null || p.getlName().isEmpty() || p.getPhone() == null || p.getPhone().isEmpty()) {
+        if (p.getId() == null || p.getfName() == null || p.getfName().isEmpty() || p.getlName() == null || p.getlName().isEmpty() || p.getPhone() == null || p.getPhone().isEmpty()) {
             throw new MissingInputException("ID, First Name, Last Name and/or Phone is missing");
         }
         if (p.getStreet() == null || p.getStreet().isEmpty() || p.getZip() == null || p.getZip().isEmpty() || p.getCity() == null || p.getCity().isEmpty()) {

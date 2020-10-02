@@ -9,7 +9,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69c83793-a6e5-489c-925f-c896e4f64d83" name="Default Changelist" comment="" />
+    <list default="true" id="69c83793-a6e5-489c-925f-c896e4f64d83" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/person.iml" beforeDir="false" afterPath="$PROJECT_DIR$/person.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/PersonDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dto/PersonDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/facades/PersonFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/facades/PersonFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rest/CorsRequestFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rest/CorsResponseFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/EMF_Creator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/EMF_Creator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/facades/PersonFacadeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/facades/PersonFacadeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/rest/PersonResourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rest/PersonResourceTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +67,7 @@
       <recent name="facades" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.37">
+  <component name="RunManager" selected="JUnit.All in person">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -67,23 +79,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonFacadeTest.deletePersonWrongIDTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in person" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="person" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="facades.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="facades" />
-      <option name="MAIN_CLASS_NAME" value="facades.PersonFacadeTest" />
-      <option name="METHOD_NAME" value="deletePersonWrongIDTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonResourceTest.GetPersonAddressTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PersonResourceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="person" />
       <extension name="coverage">
         <pattern>
@@ -93,13 +97,12 @@
       </extension>
       <option name="PACKAGE_NAME" value="rest" />
       <option name="MAIN_CLASS_NAME" value="rest.PersonResourceTest" />
-      <option name="METHOD_NAME" value="GetPersonAddressTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonResourceTest.GetPersonWrongIDTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PersonResourceTest.addPersonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="person" />
       <extension name="coverage">
         <pattern>
@@ -109,7 +112,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="rest" />
       <option name="MAIN_CLASS_NAME" value="rest.PersonResourceTest" />
-      <option name="METHOD_NAME" value="GetPersonWrongIDTest" />
+      <option name="METHOD_NAME" value="addPersonTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,7 +134,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonResourceTest.getPersonPersonNotFoundTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PersonResourceTest.editPersonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="person" />
       <extension name="coverage">
         <pattern>
@@ -141,7 +144,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="rest" />
       <option name="MAIN_CLASS_NAME" value="rest.PersonResourceTest" />
-      <option name="METHOD_NAME" value="getPersonPersonNotFoundTest" />
+      <option name="METHOD_NAME" value="editPersonTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -294,20 +297,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.PersonFacadeTest.deletePersonWrongIDTest" />
-      <item itemvalue="JUnit.PersonResourceTest.GetPersonWrongIDTest" />
-      <item itemvalue="JUnit.PersonResourceTest.GetPersonAddressTest" />
-      <item itemvalue="JUnit.PersonResourceTest.getPersonPersonNotFoundTest" />
-      <item itemvalue="JUnit.PersonResourceTest.editPersonPersonNotFoundTest" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.37" />
+      <item itemvalue="JUnit.PersonResourceTest.addPersonTest" />
+      <item itemvalue="JUnit.PersonResourceTest.editPersonTest" />
+      <item itemvalue="JUnit.PersonResourceTest" />
+      <item itemvalue="JUnit.PersonResourceTest.editPersonPersonNotFoundTest" />
+      <item itemvalue="JUnit.All in person" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in person" />
         <item itemvalue="JUnit.PersonResourceTest.editPersonPersonNotFoundTest" />
-        <item itemvalue="JUnit.PersonResourceTest.getPersonPersonNotFoundTest" />
-        <item itemvalue="JUnit.PersonResourceTest.GetPersonAddressTest" />
-        <item itemvalue="JUnit.PersonResourceTest.GetPersonWrongIDTest" />
-        <item itemvalue="JUnit.PersonFacadeTest.deletePersonWrongIDTest" />
+        <item itemvalue="JUnit.PersonResourceTest" />
+        <item itemvalue="JUnit.PersonResourceTest.editPersonTest" />
+        <item itemvalue="JUnit.PersonResourceTest.addPersonTest" />
       </list>
     </recent_temporary>
   </component>
@@ -321,7 +324,7 @@
       <updated>1600880323597</updated>
       <workItem from="1600880324866" duration="8067000" />
       <workItem from="1600929374954" duration="18858000" />
-      <workItem from="1601627106049" duration="605000" />
+      <workItem from="1601628857820" duration="912000" />
     </task>
     <servers />
   </component>
@@ -349,54 +352,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="566" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600932638833" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1600966275608">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1601629551113">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600966275608" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1600966275608">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601629551113" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1601629551113">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600966275608" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1600966275608">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601629551113" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1601629551112">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600966275608" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1600966275608">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601629551112" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1601629551113">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600966275608" />
-    <state width="1293" height="266" key="GridCell.Tab.1.bottom" timestamp="1600966275605">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601629551113" />
+    <state width="1293" height="293" key="GridCell.Tab.1.bottom" timestamp="1601629087922">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="266" key="GridCell.Tab.1.bottom/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600966275605" />
-    <state width="1293" height="266" key="GridCell.Tab.1.center" timestamp="1600966275605">
+    <state width="1293" height="293" key="GridCell.Tab.1.bottom/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601629087922" />
+    <state width="1293" height="293" key="GridCell.Tab.1.center" timestamp="1601629087921">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="266" key="GridCell.Tab.1.center/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600966275605" />
-    <state width="1293" height="266" key="GridCell.Tab.1.left" timestamp="1600966275605">
+    <state width="1293" height="293" key="GridCell.Tab.1.center/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601629087921" />
+    <state width="1293" height="293" key="GridCell.Tab.1.left" timestamp="1601629087921">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="266" key="GridCell.Tab.1.left/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600966275605" />
-    <state width="1293" height="266" key="GridCell.Tab.1.right" timestamp="1600966275605">
+    <state width="1293" height="293" key="GridCell.Tab.1.left/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601629087921" />
+    <state width="1293" height="293" key="GridCell.Tab.1.right" timestamp="1601629087922">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="266" key="GridCell.Tab.1.right/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600966275605" />
-    <state width="1293" height="266" key="GridCell.Tab.2.bottom" timestamp="1600966275605">
+    <state width="1293" height="293" key="GridCell.Tab.1.right/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601629087922" />
+    <state width="1293" height="293" key="GridCell.Tab.2.bottom" timestamp="1601629087922">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="266" key="GridCell.Tab.2.bottom/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600966275605" />
-    <state width="1293" height="266" key="GridCell.Tab.2.center" timestamp="1600966275605">
+    <state width="1293" height="293" key="GridCell.Tab.2.bottom/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601629087922" />
+    <state width="1293" height="293" key="GridCell.Tab.2.center" timestamp="1601629087922">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="266" key="GridCell.Tab.2.center/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600966275605" />
-    <state width="1293" height="266" key="GridCell.Tab.2.left" timestamp="1600966275605">
+    <state width="1293" height="293" key="GridCell.Tab.2.center/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601629087922" />
+    <state width="1293" height="293" key="GridCell.Tab.2.left" timestamp="1601629087922">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="266" key="GridCell.Tab.2.left/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600966275605" />
-    <state width="1293" height="266" key="GridCell.Tab.2.right" timestamp="1600966275605">
+    <state width="1293" height="293" key="GridCell.Tab.2.left/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601629087922" />
+    <state width="1293" height="293" key="GridCell.Tab.2.right" timestamp="1601629087922">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="266" key="GridCell.Tab.2.right/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600966275605" />
+    <state width="1293" height="293" key="GridCell.Tab.2.right/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601629087922" />
     <state x="802" y="303" key="JpaSupport:com.ifengxue.plugin.gui.DatabaseSettingsDialog" timestamp="1600934580615">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -17,12 +17,19 @@ public class PersonDTO {
     private String fName;
     private String lName;
     private String phone;
+    private String street;
+    private String zip;
+    private String city;
 
     public PersonDTO(Person person) {
         this.id = person.getId();
         this.fName = person.getFirstName();
         this.lName = person.getLastName();
         this.phone = person.getPhone();
+        this.street = person.getAddress().getStreet();
+        this.zip = person.getAddress().getZip();
+        this.city = person.getAddress().getCity();
+
     }
 
     public PersonDTO(String fName, String lName, String phone) {

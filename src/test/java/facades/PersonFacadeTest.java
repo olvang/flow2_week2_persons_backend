@@ -140,8 +140,9 @@ public class PersonFacadeTest {
     public void deletePersonTest() throws PersonNotFoundException {
         int id = p2.getId();
         facade.deletePerson(id);
-
-        assertEquals(null, facade.getPerson( id));
+        Assertions.assertThrows(PersonNotFoundException.class, () -> {
+            facade.deletePerson(id);
+        });
     }
 
     @Test
