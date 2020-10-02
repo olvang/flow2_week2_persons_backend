@@ -11,11 +11,10 @@ import java.util.logging.Logger;
 @Provider
 @PreMatching
 public class CorsResponseFilter implements ContainerResponseFilter {
-    private final static Logger LOG = Logger.getLogger(CorsResponseFilter.class.getName());
     @Override
     public void filter(ContainerRequestContext requestCtx, ContainerResponseContext res )
             throws IOException {
-        LOG.info( "Executing REST response filter" );
+        System.out.println("Executing REST response filter");
         res.getHeaders().add("Access-Control-Allow-Origin", "*" );
         res.getHeaders().add("Access-Control-Allow-Credentials", "true" );
         res.getHeaders().add("Access-Control-Allow-Methods", "GET, POST, DELETE, PUT" );
